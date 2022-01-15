@@ -1,0 +1,24 @@
+*{
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+body{
+    background: linear-gradient(30deg, rgba(255,255,255,1) 50%,  #276FBF 1%);
+
+}
+.cat-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cat{
+    height: 10vw;
+    transition: ease-in-out 100ms;
+    border-radius: 50%;
+}
+.cat:hover{
+    height: 13vw;
+}
