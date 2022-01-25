@@ -10,7 +10,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.soon{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+}
 
 .page-req{
     height: 100vh;
