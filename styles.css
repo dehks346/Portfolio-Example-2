@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+}
+* {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* INTRO */
+
+.intro{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.red-box{
+    height: 90%;
+    width: 55%;
+    position: absolute;
+    
+}
+.title{
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 40%;
+    width: 60%;
+}
+.slogan{
+    margin-left: 20%;
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+.navbar{
+    height: 10%;
+    width: 45%;
+    float: right;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #DF4141;
+    margin-left: auto ;
+    margin-right: auto ;
+
+}
+ul{
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    display:table;
+    overflow: hidden;
+}
+li{
+    margin-top: 7.5%;
+    float: left;
+    padding: 2px;
+    width: 150px;;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+li a{
+    text-decoration: none;
+    color: #DF4141;
+}
+.dev-image{
+    position: absolute;
+    bottom: 20%;
+    right: 6%;
+}
+.comp{
+    height: 30vw;
+    width: 30vw;
+}
+
+/* about */
+.about{
+    margin: 0 0 0 0;
+    background-color: #DF4141;
+    min-height: 800px;
+}
+.about-header{
+    height: 300px;
+    max-width: 99vw;
+}
+.about-paragraph{
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+
+/* portfolio */
+.portfolio{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    gap: 5vw;
+}
+.portfolio-item{
+    height: 80%;
+    width: 25vw;
+    background-color: #DF4141;
+    transition: 100ms ease-in-out;
+}
+.portfolio-item:hover{
+    height: 80%;
+    width: 26vw;
+}
+.item-port{
+    width: 50%;
+    transform: translateX(50%) translateY(-50%);
+}
+.item-desc{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+p a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: #DF4141;
+    font-weight: 400;
+    transition: 100ms ease-in-out;
+}
+p a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+}
+span{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 100ms ease-in-out;
+}
+.krank{
+    border: black solid 1px;
+}
+
+
+/* CONTACT ME */
+.contact{
+    background-color: #DF4141;
+    height: 45vh;
+}
+.contact-header{
+    height: 15vh;
+    width: 100%;
+}
+.contact-main{
+    height: 30vh;
+    width: 100%;
+    gap: 10vw;
+}
+.contact-i{
+    transition: 100ms ease-in-out;
+    height: 100px;
+    width: 100px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(234deg) brightness(104%) contrast(104%);
+}
+.contact-i:hover{
+    height: 120px;
+    width: 120px;
+}
+.contact-text{
+    
+}
+
+
+
+
+
+
+
+
+
+hr{
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+footer{
+    width: 100vw;
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    color: #DF4141;
+    padding-left: 100px;
+}
+
+
+
+
+.title-font{
+    font-size: 4vw;
+    line-height: 4.2vw;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.paragraph-font{
+    font-size: 1.2vw;
+    line-height: 1.25vw;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.red{
+    background-color: #DF4141;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .title-font{
+        font-size: 7vw;
+        line-height: 7.2vw;
+        font-weight: 800;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    .paragraph-font{
+        font-size: 2.5vw;
+        line-height: 2.75vw;
+        font-weight: 100;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    .responsive-h2{
+        font-size: 3.5vw;
+        line-height: 3.8vw;
+        font-weight: 100;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    .dev-image{
+        display: none;
+    }
+    .navbar{
+        height: 10%;
+        width: 45%;
+        float: right;
+        font-size: 4vw;
+        font-weight: 500;
+        color: #DF4141;
+        margin-left: auto ;
+        margin-right: auto ;
+    
+    }
+    .portfolio-item{
+        height: 60%;
+        width: 35vw;
+        background-color: #DF4141;
+    }
+  }
